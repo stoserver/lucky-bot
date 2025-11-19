@@ -13,6 +13,7 @@
   "adminIds": [],
   "developerIds": [],
 
+  "gambleAdminIds": [],           // ✅ 도박 설정/종료 권한 관리자 ID
   "conflictWarningMinutes": 2,
   "conflictTimeoutMinutes": 4,
 
@@ -24,6 +25,11 @@
   },
 
   "gamble": {
-    "durationSec": 90
-  }
+    "durationSec": 90,
+    "minBetDefault": 1,           // ✅ 기본 최소 베팅
+    "multiplierDefault": 2         // ✅ 기본 배율
+  },
+
+  "oinkWebhookUrl": "",           // ✅ 특정 유저 말하면 "꿀꿀" 전송
+  "oinkWebhookAvatar": "pictures/pig.png"  // ✅ 돼지 프로필
 }
