@@ -84,6 +84,11 @@ if (process.argv[2] === "register") {
   process.exit(0);
 }
 
+// 밥 주기 버튼 처리
+if (interaction.isButton() && interaction.customId === "FEED_ACTION") {
+    const feeding = require("../systems/feedingSystem");
+    return feeding.feedUser(interaction);
+}
 // ───────────────────────────────
 // 6) 봇 로그인
 // ───────────────────────────────
