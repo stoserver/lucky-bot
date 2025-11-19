@@ -1,0 +1,17 @@
+{
+  "name": "lucky-bot",
+  "version": "1.0.0",
+  "description": "Discord bot with gamble, feeding, conflict and verification system",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "register": "node index.js register"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "node-cron": "^3.0.2",
+    "fs-extra": "^11.2.0",
+    "dotenv": "^16.4.5"
+  }
+}
