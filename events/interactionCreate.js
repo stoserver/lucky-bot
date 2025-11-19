@@ -1,8 +1,8 @@
 // events/interactionCreate.js
 const feeding = require("../systems/feedingSystem");
 const msg = require("../messages/messages");
-const gamble = require("../systems/gamblingSystem"); // 추후 구현 예정
-const verify = require("../systems/verifySystem"); // 추후 구현 예정
+const gamble = require("../systems/gamblingSystem");
+const verify = require("../systems/verifySystem");
 
 module.exports = {
     name: "interactionCreate",
