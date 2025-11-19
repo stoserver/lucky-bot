@@ -1,0 +1,29 @@
+{
+  "token": "",
+  "clientId": "",
+  "guildId": "",
+
+  "feedChannelId": "",
+  "gambleChannelId": "",
+  "noticeChannelId": "",
+  "verifyChannelId": "",
+
+  "targetOinkUserId": "",
+
+  "adminIds": [],
+  "developerIds": [],
+
+  "conflictWarningMinutes": 2,
+  "conflictTimeoutMinutes": 4,
+
+  "feed": {
+    "dailyLimit": 1,
+    "perFeedKg": 200,
+    "baseRequirement": 400,
+    "levelNoticePoints": [20, 40, 60, 80]
+  },
+
+  "gamble": {
+    "durationSec": 90
+  }
+}
