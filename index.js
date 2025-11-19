@@ -89,6 +89,9 @@ if (interaction.isButton() && interaction.customId === "FEED_ACTION") {
     const feeding = require("../systems/feedingSystem");
     return feeding.feedUser(interaction);
 }
+
+const evt = require("./events/interactionCreate");
+client.on(evt.name, (...args) => evt.execute(client, config, ...args));
 // ───────────────────────────────
 // 6) 봇 로그인
 // ───────────────────────────────
